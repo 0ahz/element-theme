@@ -11,12 +11,12 @@
 ## Installation
 install local or global
 ```shell
-npm i element-theme -D
+npm i @wfkit/element-theme -D
 ```
 
-install `theme-chalk`
+install `@wfkit/theme-chalk`
 ```shell
-npm i element-theme-chalk -D
+npm i @wfkit/element-theme-chalk -D
 # or from github
 npm i https://github.com/ElementUI/theme-chalk -D
 ```
@@ -35,7 +35,7 @@ et [--config variable file path] [--out theme path] [--minimize]
 
 ## Node API
 ```javascript
-var et = require('element-theme')
+var et = require('@wfkit/element-theme')
 
 // watch mode
 et.watch({
